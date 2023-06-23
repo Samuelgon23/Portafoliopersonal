@@ -1,0 +1,140 @@
+
+@media screen and (max-width: 768px) {                 /*POR ALGUNA RAZÓN NO SE ME PERMITE REUTILZAR EL CODIGO,ESTARÉ INVESTIGANDO AL RESPECTO*/
+ 
+    .menu-container .menu{
+        flex-direction: column;
+        text-align: center;
+        background: cadetblue;
+    }
+    .menu-navegacion{
+        flex-direction: column;
+    }
+    .menu-enlace{
+        color: blanchedalmond;
+        text-decoration: overline;
+    }
+    .titulomenu{
+        margin-right: 600px;
+        color: black;
+    }
+
+    .Presentacion {
+        background: lightblue;
+    }
+    .title-bio {
+        font-weight: 800;
+        color: black;
+        text-align: center;
+        padding: initial;
+    }
+
+    .sobremi {
+        background-color: aliceblue;
+    }
+
+    .titulosobremi {
+        color: black;
+    }
+
+    .hobbies__ {
+        background-color: aliceblue;
+    }
+    .titles {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 900;
+        color: black;
+    }
+    .box  {
+        width: 200px;
+        height: 100px;
+        background-color: black;
+        border-radius: 40px;
+        margin: 10px 20px;
+     }
+    .Hobbies-name {
+        color: powderblue;
+        text-align: center;
+        padding: 5px;
+    }
+    .soft-skills {
+        background-color: aliceblue;
+    }
+                                    
+    .formacion {
+        background-color: darkcyan;
+        padding-inline: 80px;
+    }
+      .titulo-formacion {
+        color: black;
+        font-size: 30px;
+        padding: 20px;
+        font-style: italic;
+        font-weight: bolder;
+    }
+    .academic-courses-item-img {
+        background-color: white;
+        border-radius: 30px;
+        margin: 0 50px;
+        display: flex;
+        padding: 20px;
+        height: 160px;
+    }
+
+    .experience {
+        background: radial-gradient(black, transparent);
+    }
+    .experience_title {
+        color: black;
+        font-size: 30px;
+    }
+    
+    .contacto-title {
+        color: black;
+    }
+    .contacto {
+        background: aliceblue;
+        height: initial;     
+    }
+    .contacto .formcontato__form {
+        display: flex;
+        flex-direction: column;
+        padding: initial;
+        margin: initial;
+    }
+    .formcontato-input {
+        width: 30%;
+        height: 30px;
+        margin: 12px;
+        background: white;
+        border-radius: 10px;
+        color: black;
+        font-size: initial;
+        font-weight: initial;
+    }
+    .formcontato-textarea {
+        margin: 0 10px
+    }
+    .formcontato-boton {
+        margin: 3px 10px;
+        border-radius: 7px;
+    }
+
+    .footer- {
+    background: #ccc;
+    }
+
+    footer .redes {
+        padding: 5px;
+    }
+    .redes-item {
+        margin: 0 40px;
+    }
+    .github {
+        width: 50px;
+    }
+    .linkedin {
+        width: 50px;
+    }
+    
+}
